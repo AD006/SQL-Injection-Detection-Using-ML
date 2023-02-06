@@ -1,4 +1,4 @@
-# SQL-Injection-Detection using ML
+# SQL-Injection-Detection Using Machine Learning(Fraud Detection)
 
 ## What is SQL Injection(SQLi)?
 SQL injection is a code injection technique in which malicious SQL statements are inserted into an entry field for execution. It generally allows an attacker to view data that they are not normally able to retrieve. It is one of the most common web hacking techniques.
