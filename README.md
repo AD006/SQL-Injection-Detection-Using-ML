@@ -20,5 +20,5 @@ It is a Supervised Machine Learning(classification) task. Algorithms considered 
 * Support Vector Machines
 
 ## Refrences
-* https://www.mdpi.com/2624-800X/2/4/39/pdf
-* 'Ensemble Machine Learning Approaches for Detection of SQL Injection Attack --By Umar Farooq'
+* [Detection of SQL Injection Attack Using Machine](uhttps://www.mdpi.com/2624-800X/2/4/39/pdfrl)
+* [Ensemble Machine Learning Approaches for Detection of SQL Injection Attack --By Umar Farooq]([url](https://hrcak.srce.hr/file/367636))
