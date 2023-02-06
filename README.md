@@ -1,2 +1,24 @@
 # SQL-Injection-Detection using ML
-##What is SQL Injection(SQLi)?
+
+## What is SQL Injection(SQLi)?
+SQL injection is a code injection technique in which malicious SQL statements are inserted into an entry field for execution. It generally allows an attacker to view data that they are not normally able to retrieve. It is one of the most common web hacking techniques.
+
+![image](https://user-images.githubusercontent.com/96000840/217074588-ee12b1a6-8eb2-44cd-a832-a4ce15fd2dd7.png)
+
+## Data Collection
+The set of normal and injected queries are collected from opensource service named as Kaggle. In this dataset 10000 random normal(legitimate) queries, about 5000 Injected queries and 800 Plain queries are collected to train the ML models.
+
+## Machine Learning
+It is a Supervised Machine Learning(classification) task. Algorithms considered to train the dataset in this project are:
+* Decision Tree
+* Random Forest
+* Adaboost
+* XGBoost
+* Gradient Boosting Machine
+* Light Gradient Boosting Machine
+* Autoencoder Neural Network
+* Support Vector Machines
+
+## Refrences
+* https://www.mdpi.com/2624-800X/2/4/39/pdf
+* 'Ensemble Machine Learning Approaches for Detection of SQL Injection Attack --By Umar Farooq'
