@@ -6,7 +6,7 @@ SQL injection is a code injection technique in which malicious SQL statements ar
 ![image](https://user-images.githubusercontent.com/96000840/217074588-ee12b1a6-8eb2-44cd-a832-a4ce15fd2dd7.png)
 
 ## Data Collection
-The set of normal and injected queries are collected from opensource service named as Kaggle. In this dataset 10000 random normal(legitimate) queries, about 5000 Injected queries and 800 Plain queries are collected to train the ML models.
+The set of normal and injected queries are collected from open source service named as Kaggle. In this dataset 10000 random normal(legitimate) queries, about 5000 Injected queries and 800 Plain queries are collected to train the ML models.
 
 ## Machine Learning
 It is a Supervised Machine Learning(classification) task. Algorithms considered to train the dataset in this project are:
