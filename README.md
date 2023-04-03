@@ -16,18 +16,10 @@ SQL injection is a code injection technique in which malicious SQL statements ar
 * This is the basic understanding of How SQLi queries are used to get access to the database. For more information visit : [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
 
 ## Data Collection
-The set of normal and injected queries are collected from open source service named as Kaggle. In this dataset 10000 random normal(legitimate) queries, about 5000 Injected queries and 800 Plain queries are collected to train the ML models.
+The set of normal and injected queries are collected from open source service named as Kaggle. This dataset contains two columns: Query, label. Label column contains 1 and 0 values. Where 1 represents that Particular Query that can get access to database i.e SQLI query and 0 represents that can not get access to database i.e it can be Normal Sql query or plain text.
 
 ## Machine Learning
-It is a Supervised Machine Learning(classification) task. Algorithms considered to train the dataset in this project are:
-* Decision Tree
-* Random Forest
-* Adaboost
-* XGBoost
-* Gradient Boosting Machine
-* Light Gradient Boosting Machine
-* Autoencoder Neural Network
-* Support Vector Machines
+It is a Supervised Machine Learning(classification) task. 
 
 ## Refrences
 * [Detection of SQL Injection Attack Using Machine](https://www.mdpi.com/2624-800X/2/4/39/pdf)
