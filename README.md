@@ -8,7 +8,7 @@ SQL injection is a code injection technique in which malicious SQL statements ar
 ## How SQLi queries are created? How they are used to get information and types of SQLI queries with a simple example.
 * Consider : You open a website & it asks for login credentials to login i.e. "userid and password".
 * Consider the userid = xyz and password = 123
-* The web application internally creates a sql query to validate the userid and password i.e sql query will be: Select * from users where userid = xyz and password = 123.
+* The web application internally creates a sql query to validate the userid and password i.e sql query will be : Select * from users where userid = xyz and password = 123.
 
 ## Data Collection
 The set of normal and injected queries are collected from open source service named as Kaggle. In this dataset 10000 random normal(legitimate) queries, about 5000 Injected queries and 800 Plain queries are collected to train the ML models.
